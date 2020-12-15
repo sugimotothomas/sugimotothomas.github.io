@@ -3923,3 +3923,67 @@ input, select, textarea {
 			}
 
 		}
+
+
+
+
+.float-container {
+    padding: 20px;
+}
+.float-left {
+	width: 20%;
+    float: left;
+    padding: 20px;
+}  
+
+.float-left img {
+	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0; /* Make the picture taking the size of it's parent */
+ 	width: 100%; /* This if for the object-fit */
+  	height: 100%; /* This if for the object-fit */
+  	object-fit: cover; /* Equivalent of the background-size: cover; of a background-image */
+  	object-position: center;
+}
+
+.float-right {
+    width: 80%;
+    float: left;
+    padding: 20px;
+} 
+
+.small-text {
+	font-size: 10px;
+}
+
+#profile-pic {
+	width: 20%;
+	
+}
+
+@media screen and (max-width: 980px) {
+	#profile-pic {
+		width: 80%;
+		display: block;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 736px) {
+
+
+	#profile-pic {
+		width: 80%;
+		display: block;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+}
+
+.section-header {
+	padding-top: 70px;
+	padding-left: 70px;
+	padding-bottom: 30px;
+}
