@@ -3964,7 +3964,7 @@ input, select, textarea {
 
 @media screen and (max-width: 980px) {
 	#profile-pic {
-		width: 80%;
+		width: 50%;
 		display: block;
 		margin-left: auto;
     	margin-right: auto;
